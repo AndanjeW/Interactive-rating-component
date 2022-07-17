@@ -1,8 +1,22 @@
+body{
+    font-family: 'Overpass', sans-serif;
 
+}
+.content{
+    display: block; 
+    margin: auto;
+    font-size: 15px;
+    border-radius: 12px;
+    background: hsl(213, 19%, 18%);
+    color: white;
+    max-width: 375px;
+    padding: 30px;
+}
 .attribution {
      font-size: 11px; 
      text-align: center; 
     }
 .attribution a { 
     color: hsl(228, 45%, 44%);
- }
+
+}
