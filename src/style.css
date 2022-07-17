@@ -1,16 +1,58 @@
 body{
     font-family: 'Overpass', sans-serif;
+    margin-top: 200px;
+    background:  hsl(216, 12%, 8%);
 
+}
+.icon-star{
+    background: hsl(210, 13%, 26%);
+    border-radius: 50%;
+    padding: 10px 10px;
+    margin-bottom: 30px;
 }
 .content{
     display: block; 
     margin: auto;
     font-size: 15px;
-    border-radius: 12px;
+    border-radius: 28px;
     background: hsl(213, 19%, 18%);
-    color: white;
+    color: hsl(0, 0%, 100%);
     max-width: 375px;
     padding: 30px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+      margin: 10px;
+}
+.flex-container a {
+    background: hsl(210, 13%, 26%);
+    border-radius: 50%;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.flex-container a:visited{
+    background: hsl(216, 12%, 54%);
+    
+}
+.flex-container a:hover {
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    
+}
+.btn-branding{
+    background: hsl(25, 97%, 53%);
+    padding: 5px 130px;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 2px;
 }
 .attribution {
      font-size: 11px; 
