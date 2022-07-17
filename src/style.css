@@ -46,11 +46,11 @@ h2{
     padding: 10px 20px;
     margin-top: 10px;
 }
-//.flex-container a:visited{
+.flex-container a:hover{
     background: hsl(216, 12%, 54%);
     
 }
-.flex-container a:hover {
+.flex-container a:active {
     background: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
