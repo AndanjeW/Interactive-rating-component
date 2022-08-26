@@ -73,9 +73,8 @@ h2{
     margin: auto;
     padding-bottom: 10px;
 }
-.hidden{
-    display: none;
-}
+
+
 .content-rating{
     display: block;
     margin: auto;
@@ -87,11 +86,14 @@ h2{
     max-width: 375px;
     padding: 30px;
 }
-
+.hidden{
+    display: none;
+}
 .attribution {
      font-size: 11px; 
      text-align: center; 
      color: hsl(0, 0%, 100%);
+     margin-top: 20px;
     }
 .attribution a { 
     color: hsl(228, 45%, 44%);
